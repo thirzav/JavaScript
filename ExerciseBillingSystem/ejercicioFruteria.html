@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/logoJavascript.jpg">
+    <link rel="stylesheet" type="text/css" href="./ejercicioFruteria.css">
+    <script src="./ejercicioFruteria.js"></script>
+    <title>Fruteria</title>
+</head>
+<body>
+    <div id="container">
+        <div id="div_productos">
+
+            <div class="div_productos_options">
+                <select name="selectMenu1" id="selectMenu1">
+                    <option value="manzana" class="optie" id="producto1">manzana</option>
+                    <option value="pera" class="optie" id="producto2">pera</option>
+                    <option value="fresa" class="optie" id="producto3">fresa</option>
+                    <option value="frambuesa" class="optie" id="producto4">frambuesa</option>
+                    <option value="melon" class="optie" id="producto5">melon</option>
+                </select>
+    
+                <input type="number" name="select_cantidad1" id="select_cantidad1" value="0">
+            </div>
+
+            <div class="div_productos_options">
+                <select name="selectMenu2" id="selectMenu2">
+                    <option value="manzana" class="optie">manzana</option>
+                    <option value="pera" class="optie">pera</option>
+                    <option value="fresa" class="optie">fresa</option>
+                    <option value="frambuesa" class="optie">frambuesa</option>
+                    <option value="melon" class="optie">melon</option>
+                </select>
+    
+                <input type="number" name="select_cantidad2" id="select_cantidad2" value="0">
+            </div>
+
+            <div class="div_productos_options">
+                <select name="selectMenu3" id="selectMenu3">
+                    <option value="manzana" class="optie">manzana</option>
+                    <option value="pera" class="optie">pera</option>
+                    <option value="fresa" class="optie">fresa</option>
+                    <option value="frambuesa" class="optie">frambuesa</option>
+                    <option value="melon" class="optie">melon</option>
+                </select>
+    
+                <input type="number" name="select_cantidad3" id="select_cantidad3" value="0">
+            </div>
+
+            <div>
+                <input type="button" value="comprar" id="comprar" onclick="comprar()">
+            </div>
+
+            
+        </div>
+        <div id="div_ticket">
+            <div id="div_ticket_header">
+                <div id="div_nombre_producto">
+                    <h3 id="nombre" class="title">Producto</h5>
+                    <h4 id="cantidad" class="title">QT</h6>
+                    <h4 id="precio_unidad" class="title">P/U</h6>
+                    <h4 id="precio_total" class="title">TOTAL</h6>
+                </div>
+            </div>
+
+            <div class="div_ticket_productos">
+                <h5 id="ticket_producto1"></h5>
+                <h6 id="ticket_cantidad1"></h6>
+                <h6 id="ticket_pu1"></h6>
+                <h6 id="ticket_subtotal1"></h6>
+            </div>
+
+            <div class="div_ticket_productos">
+                <h5 id="ticket_producto2"></h5>
+                <h6 id="ticket_cantidad2"></h6>
+                <h6 id="ticket_pu2"></h6>
+                <h6 id="ticket_subtotal2"></h6>
+            </div>
+
+            <div class="div_ticket_productos">
+                <h5 id="ticket_producto3"></h5>
+                <h6 id="ticket_cantidad3"></h6>
+                <h6 id="ticket_pu3"></h6>
+                <h6 id="ticket_subtotal3"></h6>
+            </div>
+
+
+        </div>
+        <div>
+            <h5 id="subtotal"></h5>
+        </div>
+    </div>
+    
+</body>
+</html>

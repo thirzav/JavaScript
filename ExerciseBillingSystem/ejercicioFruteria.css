@@ -1,0 +1,52 @@
+#container {
+    display: grid;
+    grid-template-areas: "div_productos div_ticket";
+    width: 800px;
+    margin: 0px auto;
+}
+
+#div_productos {
+    background-color: aliceblue;
+    width: 400px;
+}
+
+#div_ticket {
+    background-color: antiquewhite;
+    width: 400px;
+}
+
+#selectMenu {
+    margin: 0px;
+    padding: 0px;
+}
+
+#select_cantidad {
+    margin: 0px;
+    padding: 0px;
+}
+
+#optie {
+    margin: 0px;
+    padding: 0px;
+}
+
+#div_nombre_producto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.div_ticket_productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+h5, h6 {
+    margin: 0px;
+    display: inline-block;
+}

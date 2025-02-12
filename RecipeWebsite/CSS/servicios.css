@@ -1,0 +1,21 @@
+/* #contenido {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+} */
+
+h1, h2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#div_titulo_imagen {
+    width: 882px;
+    margin: 0px auto;
+}
+
+#div_descripcion {
+    text-align: center;
+    margin: 35px;
+}
